@@ -1,0 +1,66 @@
+body {
+    background-color: #00A8E8;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.logo {
+    text-align: center;
+    color: rgb(159, 253, 255);
+}
+
+.website-header {
+    background-color: #003459;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.website-footer {
+    text-align: center;
+    background-color: #003459;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation-panel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navigation-panel button {
+    background-color: #00ccff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.navigation-panel button:hover {
+    background-color: #0077c7;
+    color: white;
+}
+
+.heading {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
